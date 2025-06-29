@@ -1,0 +1,9 @@
+# Exemplo de arquivo terraform.tfvars
+# Copie este arquivo para terraform.tfvars e preencha com seus valores
+
+aws_region           = "us-east-1"
+instance_type        = "t2.medium"
+ami_id               = "ami-053b0dcd10dcfd54e" # Atualize com a AMI mais recente da sua região
+key_name             = "minha-chave-ssh" # Substitua pelo nome da sua chave SSH na AWS
+vpc_cidr_block       = "10.0.0.0/16"
+public_subnet_cidr_block = "10.0.1.0/24"
